@@ -12,10 +12,10 @@
 <br>
 <div class="container">
 	<div class="row">
-		<div class="col-md-3">
-			<div class="card card-body h-100" id="profile-wrapper">
+		<div class="col-md-3 ">
+			<div class="card card-body h-100 border border-dark" id="profile-wrapper">
 
-				<img id="profile-pic" src="{% static 'images/Capture.JPG'%}" >
+				<img id="profile-pic" src="{% static 'images/Capture.JPG'%}"  class="img-fluid img-thumbnail">
 				<hr>
 				<h4>Adshayan Balendra</h4>
 				<i><small>Candidate for Bachelor of Applied Science in Computer Engineering <br>University of Waterloo</small> </i>
@@ -23,12 +23,12 @@
 		</div>
 
 		<div class="col-md-9">
-			<div class="card card-body h-100">
+			<div class="card card-body h-100 border border-dark">
 				<center><h4>About me!</h4></center>
 				<hr>
 				<p>Hey! I'm Adshayan, I am currently a Computer Engineering student with an interest in software development, Data Science and Hardware. Over the past few years, I have been working on my programming skills and have built programs that print “Hello World” to a COVID-19 Dashboard that can predict future cases and deaths. I enjoy solving problems using code, from Leetcode problems to visualizing and analyzing data from large datasets.<br><br>On the side, I enjoy playing basketball and watching crime documentaries. I'm also currently exploring web development and planning to learn back-end development in the future!
 				</p>
-				<a href="{% static 'images/resume.pdf'%}" target="_blank" class="btn btn-primary">View my Resume!</a>
+				<a href="{% static 'images/resume.pdf'%}" target="_blank" class="btn btn-primary rounded-pill">View my Resume!</a>
 			</div>
 		</div>
 	</div>
@@ -57,11 +57,15 @@
 
 				<div class="card-body">
 					<h5 class="card-title"><center>Get in touch<hr></center></h5>
-					<center>
-						<a href="https://www.linkedin.com/in/adshayan-balendra-3a2139196/" class="btn btn-primary"  style="border-color:grey"><i class="fa fa-linkedin-square" style="font-size:20px"></i></a>
-						<a href="https://github.com/adshayanB" class="btn btn-primary" style="border-color:grey"><i class="fa fa-github-square"style="font-size:20px"></i></a>
-						<a href="mailto:adshayan.balendra@uwaterloo.ca" class="btn btn-primary" style="border-color:grey"><i class="fa fa-envelope"style="font-size:20px"></i></a>
-					</center>
+					<div  class="card border-0">
+
+						<center>
+							<a href="https://www.linkedin.com/in/adshayan-balendra-3a2139196/" class="btn btn-primary"  style="border-color:grey"><i class="fa fa-linkedin-square" style="font-size:20px"></i></a>
+							<a href="https://github.com/adshayanB" class="btn btn-primary" style="border-color:grey"><i class="fa fa-github-square"style="font-size:20px"></i></a>
+							<a href="mailto:adshayan.balendra@uwaterloo.ca" class="btn btn-primary" style="border-color:grey"><i class="fa fa-envelope"style="font-size:20px"></i></a>
+						</center>
+
+					</div>
 				</div>
 			</div>
 
@@ -276,7 +280,7 @@
 									<h6 class="card-subtitle ">Marc Garneau CI | <i> Academic Excellence</i></h6>
 									<p class="card-text"></p>
 									<h6 class="card-subtitle  ">Marc Garneau CI |<i> Calculus and Vectors Award</i> </h6>
-									<div style="line-height:85%;">
+									<div style="line-height:96%;">
 										<br>
 									</div>
 								</div>
@@ -295,5 +299,3 @@
 
 </body>
 </html>
-
-
